@@ -16,7 +16,7 @@ def p(m):
     return OO000000O00O0OOO0, OOOO000000O0OO000
 def test_power_numbers(p):
     OO00O00O000O0OO00, OO0O0O00OOO0OOOO0 = p
-    OOOOO00OO000OOO0O = homework.power_numbers(*OO00O00O000O0OO00)
+    OOOOO00OO000OOO0O = homework.power_numbers(1, 4, 6, 4)
     assert OOOOO00OO000OOO0O == OO0O0O00OOO0OOOO0
 def ip (O000OO0O0O000OOO0 )->bool :
     if O000OO0O0O000OOO0 <=1 :
