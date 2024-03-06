@@ -1,13 +1,3 @@
-
-def power_numbers(*numbers):
-
-    for number in numbers:
-        print(number ** 2)
-
-power_numbers(1, 4, 6, 3)
-
-
-# filter types
 def is_odd(*numbers):
     for number in numbers:
       if number % 2 == 0:
@@ -41,3 +31,13 @@ def filter_numbers(*numbers, type):
 filter_numbers(1,3,4,5,67,34,2,2, type=PRIME)
 
 
+ #  if
+#    функция, которая на вход принимает список из целых чисел,
+#    и возвращает только чётные/нечётные/простые числа
+#    (выбор производится передачей дополнительного аргумента)
+#
+#    >>> filter_numbers([1, 2, 3], ODD)
+#    <<< [1, 3]
+#    >>> filter_numbers([2, 3, 4, 5], EVEN)
+ #   <<< [2, 4]
+ #   """
